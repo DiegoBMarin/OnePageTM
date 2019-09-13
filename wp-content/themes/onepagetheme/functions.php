@@ -17,7 +17,7 @@ function onePage_styles(){
 
 
 		//Llama Spripts
-		//wp_enqueue_script('jquery');
+		wp_enqueue_script('jquery');
 		wp_enqueue_script('bootstrapjs', "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js", array('jquery'), '4.3.1', true);
 		wp_register_script('scripts', get_template_directory_uri().'/js/scripts.js', array(), '1.0.0', true );
 
