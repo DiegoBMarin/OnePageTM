@@ -1,51 +1,36 @@
 <?php get_header(); ?>
 
-	<section class="">
+	<section id="home" >
       <div id="demo" class="carousel slide" data-ride="carousel">
   <ul class="carousel-indicators">
     <li data-target="#demo" data-slide-to="0" class="active"></li>
     <li data-target="#demo" data-slide-to="1"></li>
-    <li data-target="#demo" data-slide-to="2"></li>
+  
   </ul>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="https://www.w3schools.com/bootstrap4/la.jpg" alt="Los Angeles" width="100%">
-      <div class="container">
-          <div class="carousel-caption">
+      <img src="https://images.unsplash.com/photo-1556814278-8906c7d3a05f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80" alt="forest" width="100%">
+      <div class="carousel-caption">
             <div class="caption-border">
                <h1 class="mb-1">One page</h1>
               <h2>Multi-purpose theme</h2> 
             </div>
             <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>
             <p><a class="btn btn-lg btn-outline-light" href="#" role="button">Get Started</a></p>
-          </div>
-        </div>   
+          </div>   
     </div>
+
+
     <div class="carousel-item">
-      <img src="https://www.w3schools.com/bootstrap4/chicago.jpg" alt="Chicago" width="100%">
-      <div class="container">
-          <div class="carousel-caption">
+      <img src="https://images.unsplash.com/photo-1440688807730-73e4e2169fb8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80" alt="forest tropic" width="100%">
+      <div class="carousel-caption">
             <div class="caption-border">
                <h1 class="mb-1">One page</h1>
               <h2>Multi-purpose theme</h2> 
             </div>
             <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>
             <p><a class="btn btn-lg btn-outline-light" href="#" role="button">Get Started</a></p>
-          </div>
-        </div>   
-    </div>
-    <div class="carousel-item">
-      <img src="https://www.w3schools.com/bootstrap4/ny.jpg" alt="New York" width="100%">
-      <div class="container mt-n5">
-          <div class="carousel-caption">
-            <div class="caption-border">
-               <h1 class="mb-1">One page</h1>
-              <h2>Multi-purpose theme</h2> 
-            </div>
-            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>
-            <p><a class="btn btn-lg btn-outline-light" href="#" role="button">Get Started</a></p>
-          </div>
-        </div>   
+          </div>  
     </div>
   </div>
   <a class="carousel-control-prev" href="#demo" data-slide="prev">
@@ -123,53 +108,50 @@
             <p class="lead mb-5">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
           </div>
         </div>
+<div class="container">
+    <ul class="timeline tm-scrolled">
 
-        <div class="row">
-            <div class="container">
-            <div class="row mt-5">
-                <div class="col-md-12">
-                    <div class="main-timeline overflow-auto">
-                        <a href="#" class="timeline">
-                            <div class="timeline-icon"><i class="fa fa-globe"></i></div>
-                            <div class="timeline-content">
-                                <h3 class="title">Web Designer</h3>
-                                <p class="description">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate ducimus officiis quod! Aperiam eveniet nam nostrum odit quasi ullam voluptatum.
-                                </p>
-                            </div>
-                        </a>
-                        <a href="#" class="timeline">
-                            <div class="timeline-icon"><i class="fa fa-rocket"></i></div>
-                            <div class="timeline-content">
-                                <h3 class="title">Web Developer</h3>
-                                <p class="description">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate ducimus officiis quod! Aperiam eveniet nam nostrum odit quasi ullam voluptatum.
-                                </p>
-                            </div>
-                        </a>
-                        <a href="#" class="timeline">
-                            <div class="timeline-icon"><i class="fa fa-briefcase"></i></div>
-                            <div class="timeline-content">
-                                <h3 class="title">Web Designer</h3>
-                                <p class="description">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate ducimus officiis quod! Aperiam eveniet nam nostrum odit quasi ullam voluptatum.
-                                </p>
-                            </div>
-                        </a>
-                        <a href="#" class="timeline">
-                            <div class="timeline-icon"><i class="fa fa-mobile"></i></div>
-                            <div class="timeline-content">
-                                <h3 class="title">Web Developer</h3>
-                                <p class="description">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate ducimus officiis quod! Aperiam eveniet nam nostrum odit quasi ullam voluptatum.
-                                </p>
-                            </div>
-                        </a>
-                    </div>
-                </div>
+        <li class="timeline-inverted">
+          <div class="timeline-badge warning"><i class="glyphicon glyphicon-credit-card"></i></div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4 class="timeline-title mb-4">Mussum ipsum cacilds</h4>
             </div>
-        </div>
-        </div>
+            <div class="timeline-body">
+              <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
+              <p>Suco de cevadiss, é um leite divinis, qui tem lupuliz, matis, aguis e fermentis. Interagi no mé, cursus quis, vehicula ac nisi. Aenean vel dui dui. Nullam leo erat, aliquet quis tempus a, posuere ut mi. Ut scelerisque neque et turpis posuere pulvinar pellentesque nibh ullamcorper. Pharetra in mattis molestie, volutpat elementum justo. Aenean ut ante turpis. Pellentesque laoreet mé vel lectus scelerisque interdum cursus velit auctor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ac mauris lectus, non scelerisque augue. Aenean justo massa.</p>
+            </div>
+          </div>
+        </li>
+        <li class="timeline-inverted">
+          <div class="timeline-badge "><i class="glyphicon glyphicon-credit-card"></i></div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4 class="timeline-title mb-4">Mussum ipsum cacilds</h4>
+            </div>
+            <div class="timeline-body">
+              <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
+              <p>Suco de cevadiss, é um leite divinis, qui tem lupuliz, matis, aguis e fermentis. Interagi no mé, cursus quis, vehicula ac nisi. Aenean vel dui dui. Nullam leo erat, aliquet quis tempus a, posuere ut mi. Ut scelerisque neque et turpis posuere pulvinar pellentesque nibh ullamcorper. Pharetra in mattis molestie, volutpat elementum justo. Aenean ut ante turpis. Pellentesque laoreet mé vel lectus scelerisque interdum cursus velit auctor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ac mauris lectus, non scelerisque augue. Aenean justo massa.</p>
+            </div>
+          </div>
+        </li>
+        <li class="timeline-inverted">
+          <div class="timeline-badge ">
+          	<span class="timeline-badge"></span>
+          </div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4 class="timeline-title mb-4">Mussum ipsum cacilds</h4>
+            </div>
+            <div class="timeline-body">
+              <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
+              <p>Suco de cevadiss, é um leite divinis, qui tem lupuliz, matis, aguis e fermentis. Interagi no mé, cursus quis, vehicula ac nisi. Aenean vel dui dui. Nullam leo erat, aliquet quis tempus a, posuere ut mi. Ut scelerisque neque et turpis posuere pulvinar pellentesque nibh ullamcorper. Pharetra in mattis molestie, volutpat elementum justo. Aenean ut ante turpis. Pellentesque laoreet mé vel lectus scelerisque interdum cursus velit auctor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ac mauris lectus, non scelerisque augue. Aenean justo massa.</p>
+            </div>
+          </div>
+        </li>
+    </ul>
+</div>
+     
       </div>
     </section>
     
@@ -282,7 +264,7 @@
         <div class="row">
           <div class="col-lg-10 mx-auto title-section">
             <span>Briging your proven results</span>
-            <h2>Contacto</h2>
+            <h2>Contact</h2>
             <span><i></i></span>
           </div>
         </div>
@@ -320,33 +302,10 @@
         </small>
      </div>
      <div class="container text-center mb-5 mt-5">
-      <form>
-        <div class="row mb-3">
-          <div class="col">
-            <input type="text" class="form-control" placeholder="First name *">
-          </div>
-          <div class="col">
-            <input type="text" class="form-control" placeholder="Last name *">
-          </div>
-        </div>
-        <div class="row mb-3">
-          <div class="col">
-            <input type="email" class="form-control" placeholder="Emial address *">
-          </div>
-          <div class="col">
-            <input type="text" class="form-control" placeholder="Phone *">
-          </div>
-        </div>
-        <div class="row mb-3">
-          <div class="col">
-            <textarea type="textarea" class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Message *"></textarea>
-          </div>
-        </div>
-          <button type="submit" class="btn btn-outline-dark">Submit</button>
-       
-      </form>
+      <?php echo do_shortcode("[ninja_form id='1']"); ?>
+  	</div>
     </section>
-<?php echo do_shortcode("[ninja_form id='1']"); ?>
+
 
 <footer class="footer text-center bg-dark text-white">
     <div class="container">
@@ -385,11 +344,5 @@
     </div>
   </footer>
     
-
-    <!-- Scroll to Top Button-->
-    <a class="scroll-to-top rounded js-scroll-trigger" href="#page-top">
-      <i class="fas fa-angle-up"></i>
-    </a>
-
 	
 <?php get_footer(); ?>

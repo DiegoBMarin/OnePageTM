@@ -45,52 +45,59 @@ img.emoji {
 
     <title>OnePage Theme</title>
   </head>
-	<section class="">
+
+  <section id="banner">
+    <div class="bg-color">
+      <header id="header" class="bg-transparent">
+        <div class="container">
+          <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#home">Home</a>
+            <a href="#services">Services</a>
+            <a href="#about">About us</a>
+            <a href="#portfolio">Porfolio</a>
+            <a href="#contact">Contact</a>
+          </div>
+
+          <span onclick="openNav()" class="float-right menu-icon">☰</span>
+        </div>
+      </header>
+    </div>
+  </section> 
+
+
+  
+	<section id="home" >
       <div id="demo" class="carousel slide" data-ride="carousel">
   <ul class="carousel-indicators">
     <li data-target="#demo" data-slide-to="0" class="active"></li>
     <li data-target="#demo" data-slide-to="1"></li>
-    <li data-target="#demo" data-slide-to="2"></li>
+  
   </ul>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="https://www.w3schools.com/bootstrap4/la.jpg" alt="Los Angeles" width="100%">
-      <div class="container">
-          <div class="carousel-caption">
+      <img src="https://images.unsplash.com/photo-1556814278-8906c7d3a05f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80" alt="forest" width="100%">
+      <div class="carousel-caption">
             <div class="caption-border">
                <h1 class="mb-1">One page</h1>
               <h2>Multi-purpose theme</h2> 
             </div>
             <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>
             <p><a class="btn btn-lg btn-outline-light" href="#" role="button">Get Started</a></p>
-          </div>
-        </div>   
+          </div>   
     </div>
+
+
     <div class="carousel-item">
-      <img src="https://www.w3schools.com/bootstrap4/chicago.jpg" alt="Chicago" width="100%">
-      <div class="container">
-          <div class="carousel-caption">
+      <img src="https://images.unsplash.com/photo-1440688807730-73e4e2169fb8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80" alt="forest tropic" width="100%">
+      <div class="carousel-caption">
             <div class="caption-border">
                <h1 class="mb-1">One page</h1>
               <h2>Multi-purpose theme</h2> 
             </div>
             <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>
             <p><a class="btn btn-lg btn-outline-light" href="#" role="button">Get Started</a></p>
-          </div>
-        </div>   
-    </div>
-    <div class="carousel-item">
-      <img src="https://www.w3schools.com/bootstrap4/ny.jpg" alt="New York" width="100%">
-      <div class="container mt-n5">
-          <div class="carousel-caption">
-            <div class="caption-border">
-               <h1 class="mb-1">One page</h1>
-              <h2>Multi-purpose theme</h2> 
-            </div>
-            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>
-            <p><a class="btn btn-lg btn-outline-light" href="#" role="button">Get Started</a></p>
-          </div>
-        </div>   
+          </div>  
     </div>
   </div>
   <a class="carousel-control-prev" href="#demo" data-slide="prev">
@@ -168,53 +175,50 @@ img.emoji {
             <p class="lead mb-5">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
           </div>
         </div>
+<div class="container">
+    <ul class="timeline tm-scrolled">
 
-        <div class="row">
-            <div class="container">
-            <div class="row mt-5">
-                <div class="col-md-12">
-                    <div class="main-timeline overflow-auto">
-                        <a href="#" class="timeline">
-                            <div class="timeline-icon"><i class="fa fa-globe"></i></div>
-                            <div class="timeline-content">
-                                <h3 class="title">Web Designer</h3>
-                                <p class="description">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate ducimus officiis quod! Aperiam eveniet nam nostrum odit quasi ullam voluptatum.
-                                </p>
-                            </div>
-                        </a>
-                        <a href="#" class="timeline">
-                            <div class="timeline-icon"><i class="fa fa-rocket"></i></div>
-                            <div class="timeline-content">
-                                <h3 class="title">Web Developer</h3>
-                                <p class="description">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate ducimus officiis quod! Aperiam eveniet nam nostrum odit quasi ullam voluptatum.
-                                </p>
-                            </div>
-                        </a>
-                        <a href="#" class="timeline">
-                            <div class="timeline-icon"><i class="fa fa-briefcase"></i></div>
-                            <div class="timeline-content">
-                                <h3 class="title">Web Designer</h3>
-                                <p class="description">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate ducimus officiis quod! Aperiam eveniet nam nostrum odit quasi ullam voluptatum.
-                                </p>
-                            </div>
-                        </a>
-                        <a href="#" class="timeline">
-                            <div class="timeline-icon"><i class="fa fa-mobile"></i></div>
-                            <div class="timeline-content">
-                                <h3 class="title">Web Developer</h3>
-                                <p class="description">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate ducimus officiis quod! Aperiam eveniet nam nostrum odit quasi ullam voluptatum.
-                                </p>
-                            </div>
-                        </a>
-                    </div>
-                </div>
+        <li class="timeline-inverted">
+          <div class="timeline-badge warning"><i class="glyphicon glyphicon-credit-card"></i></div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4 class="timeline-title mb-4">Mussum ipsum cacilds</h4>
             </div>
-        </div>
-        </div>
+            <div class="timeline-body">
+              <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
+              <p>Suco de cevadiss, é um leite divinis, qui tem lupuliz, matis, aguis e fermentis. Interagi no mé, cursus quis, vehicula ac nisi. Aenean vel dui dui. Nullam leo erat, aliquet quis tempus a, posuere ut mi. Ut scelerisque neque et turpis posuere pulvinar pellentesque nibh ullamcorper. Pharetra in mattis molestie, volutpat elementum justo. Aenean ut ante turpis. Pellentesque laoreet mé vel lectus scelerisque interdum cursus velit auctor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ac mauris lectus, non scelerisque augue. Aenean justo massa.</p>
+            </div>
+          </div>
+        </li>
+        <li class="timeline-inverted">
+          <div class="timeline-badge"><i class="glyphicon glyphicon-credit-card"></i></div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4 class="timeline-title mb-4">Mussum ipsum cacilds</h4>
+            </div>
+            <div class="timeline-body">
+              <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
+              <p>Suco de cevadiss, é um leite divinis, qui tem lupuliz, matis, aguis e fermentis. Interagi no mé, cursus quis, vehicula ac nisi. Aenean vel dui dui. Nullam leo erat, aliquet quis tempus a, posuere ut mi. Ut scelerisque neque et turpis posuere pulvinar pellentesque nibh ullamcorper. Pharetra in mattis molestie, volutpat elementum justo. Aenean ut ante turpis. Pellentesque laoreet mé vel lectus scelerisque interdum cursus velit auctor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ac mauris lectus, non scelerisque augue. Aenean justo massa.</p>
+            </div>
+          </div>
+        </li>
+        <li class="timeline-inverted">
+          <div class="timeline-badge">
+          	<span class="timeline-badge"></span>
+          </div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4 class="timeline-title mb-4">Mussum ipsum cacilds</h4>
+            </div>
+            <div class="timeline-body">
+              <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
+              <p>Suco de cevadiss, é um leite divinis, qui tem lupuliz, matis, aguis e fermentis. Interagi no mé, cursus quis, vehicula ac nisi. Aenean vel dui dui. Nullam leo erat, aliquet quis tempus a, posuere ut mi. Ut scelerisque neque et turpis posuere pulvinar pellentesque nibh ullamcorper. Pharetra in mattis molestie, volutpat elementum justo. Aenean ut ante turpis. Pellentesque laoreet mé vel lectus scelerisque interdum cursus velit auctor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ac mauris lectus, non scelerisque augue. Aenean justo massa.</p>
+            </div>
+          </div>
+        </li>
+    </ul>
+</div>
+     
       </div>
     </section>
     
@@ -327,7 +331,7 @@ img.emoji {
         <div class="row">
           <div class="col-lg-10 mx-auto title-section">
             <span>Briging your proven results</span>
-            <h2>Contacto</h2>
+            <h2>Contact</h2>
             <span><i></i></span>
           </div>
         </div>
@@ -365,41 +369,18 @@ img.emoji {
         </small>
      </div>
      <div class="container text-center mb-5 mt-5">
-      <form>
-        <div class="row mb-3">
-          <div class="col">
-            <input type="text" class="form-control" placeholder="First name *">
-          </div>
-          <div class="col">
-            <input type="text" class="form-control" placeholder="Last name *">
-          </div>
-        </div>
-        <div class="row mb-3">
-          <div class="col">
-            <input type="email" class="form-control" placeholder="Emial address *">
-          </div>
-          <div class="col">
-            <input type="text" class="form-control" placeholder="Phone *">
-          </div>
-        </div>
-        <div class="row mb-3">
-          <div class="col">
-            <textarea type="textarea" class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Message *"></textarea>
-          </div>
-        </div>
-          <button type="submit" class="btn btn-outline-dark">Submit</button>
-       
-      </form>
-    </section>
-<noscript class="ninja-forms-noscript-message">
+      <noscript class="ninja-forms-noscript-message">
     Aviso: Se requiere JavaScript para este contenido.</noscript><div id="nf-form-1-cont" class="nf-form-cont" aria-live="polite" aria-labelledby="nf-form-title-1" aria-describedby="nf-form-errors-1" role="form">
 
     <div class="nf-loading-spinner"></div>
 
 </div>
         <!-- TODO: Move to Template File. -->
-        <script>var formDisplay=1;var nfForms=nfForms||[];var form=[];form.id='1';form.settings={"objectType":"Form Setting","editActive":"","title":"Contact Me","key":"","created_at":"2019-09-13 04:27:57","default_label_pos":"above","conditions":[],"show_title":"1","clear_complete":"1","hide_complete":"1","wrapper_class":"","element_class":"","add_submit":"1","logged_in":"","not_logged_in_msg":"","sub_limit_number":"","sub_limit_msg":"","calculations":[],"formContentData":["name","email","message","submit"],"container_styles_background-color":"","container_styles_border":"","container_styles_border-style":"","container_styles_border-color":"","container_styles_color":"","container_styles_height":"","container_styles_width":"","container_styles_font-size":"","container_styles_margin":"","container_styles_padding":"","container_styles_display":"","container_styles_float":"","container_styles_show_advanced_css":"0","container_styles_advanced":"","title_styles_background-color":"","title_styles_border":"","title_styles_border-style":"","title_styles_border-color":"","title_styles_color":"","title_styles_height":"","title_styles_width":"","title_styles_font-size":"","title_styles_margin":"","title_styles_padding":"","title_styles_display":"","title_styles_float":"","title_styles_show_advanced_css":"0","title_styles_advanced":"","row_styles_background-color":"","row_styles_border":"","row_styles_border-style":"","row_styles_border-color":"","row_styles_color":"","row_styles_height":"","row_styles_width":"","row_styles_font-size":"","row_styles_margin":"","row_styles_padding":"","row_styles_display":"","row_styles_show_advanced_css":"0","row_styles_advanced":"","row-odd_styles_background-color":"","row-odd_styles_border":"","row-odd_styles_border-style":"","row-odd_styles_border-color":"","row-odd_styles_color":"","row-odd_styles_height":"","row-odd_styles_width":"","row-odd_styles_font-size":"","row-odd_styles_margin":"","row-odd_styles_padding":"","row-odd_styles_display":"","row-odd_styles_show_advanced_css":"0","row-odd_styles_advanced":"","success-msg_styles_background-color":"","success-msg_styles_border":"","success-msg_styles_border-style":"","success-msg_styles_border-color":"","success-msg_styles_color":"","success-msg_styles_height":"","success-msg_styles_width":"","success-msg_styles_font-size":"","success-msg_styles_margin":"","success-msg_styles_padding":"","success-msg_styles_display":"","success-msg_styles_show_advanced_css":"0","success-msg_styles_advanced":"","error_msg_styles_background-color":"","error_msg_styles_border":"","error_msg_styles_border-style":"","error_msg_styles_border-color":"","error_msg_styles_color":"","error_msg_styles_height":"","error_msg_styles_width":"","error_msg_styles_font-size":"","error_msg_styles_margin":"","error_msg_styles_padding":"","error_msg_styles_display":"","error_msg_styles_show_advanced_css":"0","error_msg_styles_advanced":"","allow_public_link":0,"embed_form":"","currency":"","unique_field_error":"A form with this value has already been submitted.","ninjaForms":"Ninja Forms","changeEmailErrorMsg":"Introduce una direcci\u00f3n de correo electr\u00f3nico v\u00e1lida.","changeDateErrorMsg":"Please enter a valid date!","confirmFieldErrorMsg":"Estos campos deben coincidir.","fieldNumberNumMinError":"Error de n\u00famero m\u00ednimo","fieldNumberNumMaxError":"Error de n\u00famero m\u00e1ximo","fieldNumberIncrementBy":"Increm\u00e9ntalo por ","fieldTextareaRTEInsertLink":"Insertar enlace","fieldTextareaRTEInsertMedia":"Insertar medios","fieldTextareaRTESelectAFile":"Seleccione un archivo","formErrorsCorrectErrors":"Corrige los errores antes de enviar este formulario.","validateRequiredField":"Esto es un campo obligatorio.","honeypotHoneypotError":"Error de Honeypot","fileUploadOldCodeFileUploadInProgress":"Carga de archivo en curso.","fileUploadOldCodeFileUpload":"CARGA DE ARCHIVO","currencySymbol":false,"fieldsMarkedRequired":"Campos marcados con <span class=\"ninja-forms-req-symbol\">*<\/span> son requeridos","thousands_sep":".","decimal_point":",","siteLocale":"es_ES","dateFormat":"m\/d\/Y","startOfWeek":"1","of":"de","previousMonth":"Previo Mes","nextMonth":"Siguiente Mes","months":["Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre"],"monthsShort":["Ene","Feb","Mar","Abr","Mayo","Jun","Jul","Ago","Sep","Oct","Nov","Dic"],"weekdays":["Domingo","Lunes","Martes","Mi\u00e9rcoles","Jueves","Viernes","Sabado"],"weekdaysShort":["Dom","Lun","Mar","Mie","Jue","Vie","Sab"],"weekdaysMin":["Do","Lu","Ma","Mi","Ju","Vi","Sa"],"currency_symbol":"","beforeForm":"","beforeFields":"","afterFields":"","afterForm":""};form.fields=[{"objectType":"Field","objectDomain":"fields","editActive":false,"order":1,"label":"Name","key":"name","type":"textbox","created_at":"2019-09-13 04:27:57","label_pos":"above","required":1,"placeholder":"","default":"","wrapper_class":"","element_class":"","container_class":"","input_limit":"","input_limit_type":"characters","input_limit_msg":"Character(s) left","manual_key":"","disable_input":"","admin_label":"","help_text":"","desc_text":"","disable_browser_autocomplete":"","mask":"","custom_mask":"","wrap_styles_background-color":"","wrap_styles_border":"","wrap_styles_border-style":"","wrap_styles_border-color":"","wrap_styles_color":"","wrap_styles_height":"","wrap_styles_width":"","wrap_styles_font-size":"","wrap_styles_margin":"","wrap_styles_padding":"","wrap_styles_display":"","wrap_styles_float":"","wrap_styles_show_advanced_css":0,"wrap_styles_advanced":"","label_styles_background-color":"","label_styles_border":"","label_styles_border-style":"","label_styles_border-color":"","label_styles_color":"","label_styles_height":"","label_styles_width":"","label_styles_font-size":"","label_styles_margin":"","label_styles_padding":"","label_styles_display":"","label_styles_float":"","label_styles_show_advanced_css":0,"label_styles_advanced":"","element_styles_background-color":"","element_styles_border":"","element_styles_border-style":"","element_styles_border-color":"","element_styles_color":"","element_styles_height":"","element_styles_width":"","element_styles_font-size":"","element_styles_margin":"","element_styles_padding":"","element_styles_display":"","element_styles_float":"","element_styles_show_advanced_css":0,"element_styles_advanced":"","cellcid":"c3277","custom_name_attribute":"","personally_identifiable":"","value":"","id":1,"beforeField":"","afterField":"","parentType":"textbox","element_templates":["textbox","input"],"old_classname":"","wrap_template":"wrap"},{"objectType":"Field","objectDomain":"fields","editActive":false,"order":2,"label":"Email","key":"email","type":"email","created_at":"2019-09-13 04:27:57","label_pos":"above","required":1,"placeholder":"","default":"","wrapper_class":"","element_class":"","container_class":"","admin_label":"","help_text":"","desc_text":"","wrap_styles_background-color":"","wrap_styles_border":"","wrap_styles_border-style":"","wrap_styles_border-color":"","wrap_styles_color":"","wrap_styles_height":"","wrap_styles_width":"","wrap_styles_font-size":"","wrap_styles_margin":"","wrap_styles_padding":"","wrap_styles_display":"","wrap_styles_float":"","wrap_styles_show_advanced_css":0,"wrap_styles_advanced":"","label_styles_background-color":"","label_styles_border":"","label_styles_border-style":"","label_styles_border-color":"","label_styles_color":"","label_styles_height":"","label_styles_width":"","label_styles_font-size":"","label_styles_margin":"","label_styles_padding":"","label_styles_display":"","label_styles_float":"","label_styles_show_advanced_css":0,"label_styles_advanced":"","element_styles_background-color":"","element_styles_border":"","element_styles_border-style":"","element_styles_border-color":"","element_styles_color":"","element_styles_height":"","element_styles_width":"","element_styles_font-size":"","element_styles_margin":"","element_styles_padding":"","element_styles_display":"","element_styles_float":"","element_styles_show_advanced_css":0,"element_styles_advanced":"","cellcid":"c3281","custom_name_attribute":"email","personally_identifiable":1,"value":"","drawerDisabled":false,"id":2,"beforeField":"","afterField":"","parentType":"email","element_templates":["email","input"],"old_classname":"","wrap_template":"wrap"},{"objectType":"Field","objectDomain":"fields","editActive":false,"order":3,"label":"Message","key":"message","type":"textarea","created_at":"2019-09-13 04:27:58","label_pos":"above","required":1,"placeholder":"","default":"","wrapper_class":"","element_class":"","container_class":"","input_limit":"","input_limit_type":"characters","input_limit_msg":"Character(s) left","manual_key":"","disable_input":"","admin_label":"","help_text":"","desc_text":"","disable_browser_autocomplete":"","textarea_rte":"","disable_rte_mobile":"","textarea_media":"","wrap_styles_background-color":"","wrap_styles_border":"","wrap_styles_border-style":"","wrap_styles_border-color":"","wrap_styles_color":"","wrap_styles_height":"","wrap_styles_width":"","wrap_styles_font-size":"","wrap_styles_margin":"","wrap_styles_padding":"","wrap_styles_display":"","wrap_styles_float":"","wrap_styles_show_advanced_css":0,"wrap_styles_advanced":"","label_styles_background-color":"","label_styles_border":"","label_styles_border-style":"","label_styles_border-color":"","label_styles_color":"","label_styles_height":"","label_styles_width":"","label_styles_font-size":"","label_styles_margin":"","label_styles_padding":"","label_styles_display":"","label_styles_float":"","label_styles_show_advanced_css":0,"label_styles_advanced":"","element_styles_background-color":"","element_styles_border":"","element_styles_border-style":"","element_styles_border-color":"","element_styles_color":"","element_styles_height":"","element_styles_width":"","element_styles_font-size":"","element_styles_margin":"","element_styles_padding":"","element_styles_display":"","element_styles_float":"","element_styles_show_advanced_css":0,"element_styles_advanced":"","cellcid":"c3284","value":"","id":3,"beforeField":"","afterField":"","parentType":"textarea","element_templates":["textarea","input"],"old_classname":"","wrap_template":"wrap"},{"objectType":"Field","objectDomain":"fields","editActive":false,"order":5,"label":"Submit","key":"submit","type":"submit","created_at":"2019-09-13 04:27:58","processing_label":"Processing","container_class":"","element_class":"","wrap_styles_background-color":"","wrap_styles_border":"","wrap_styles_border-style":"","wrap_styles_border-color":"","wrap_styles_color":"","wrap_styles_height":"","wrap_styles_width":"","wrap_styles_font-size":"","wrap_styles_margin":"","wrap_styles_padding":"","wrap_styles_display":"","wrap_styles_float":"","wrap_styles_show_advanced_css":0,"wrap_styles_advanced":"","label_styles_background-color":"","label_styles_border":"","label_styles_border-style":"","label_styles_border-color":"","label_styles_color":"","label_styles_height":"","label_styles_width":"","label_styles_font-size":"","label_styles_margin":"","label_styles_padding":"","label_styles_display":"","label_styles_float":"","label_styles_show_advanced_css":0,"label_styles_advanced":"","element_styles_background-color":"","element_styles_border":"","element_styles_border-style":"","element_styles_border-color":"","element_styles_color":"","element_styles_height":"","element_styles_width":"","element_styles_font-size":"","element_styles_margin":"","element_styles_padding":"","element_styles_display":"","element_styles_float":"","element_styles_show_advanced_css":0,"element_styles_advanced":"","submit_element_hover_styles_background-color":"","submit_element_hover_styles_border":"","submit_element_hover_styles_border-style":"","submit_element_hover_styles_border-color":"","submit_element_hover_styles_color":"","submit_element_hover_styles_height":"","submit_element_hover_styles_width":"","submit_element_hover_styles_font-size":"","submit_element_hover_styles_margin":"","submit_element_hover_styles_padding":"","submit_element_hover_styles_display":"","submit_element_hover_styles_float":"","submit_element_hover_styles_show_advanced_css":0,"submit_element_hover_styles_advanced":"","cellcid":"c3287","id":4,"beforeField":"","afterField":"","value":"","label_pos":"above","parentType":"textbox","element_templates":["submit","button","input"],"old_classname":"","wrap_template":"wrap-no-label"}];nfForms.push(form);</script>
-        
+        <script>var formDisplay=1;var nfForms=nfForms||[];var form=[];form.id='1';form.settings={"objectType":"Form Setting","editActive":"","title":"Contact Me","key":"","created_at":"2019-09-13 04:27:57","default_label_pos":"above","conditions":[],"show_title":"1","clear_complete":"1","hide_complete":"1","wrapper_class":"","element_class":"","add_submit":"1","logged_in":"","not_logged_in_msg":"","sub_limit_number":"","sub_limit_msg":"","calculations":[],"formContentData":["name","lastname_1568360424284","email","phone_1568360604121","message","submit"],"container_styles_background-color":"","container_styles_border":"","container_styles_border-style":"","container_styles_border-color":"","container_styles_color":"","container_styles_height":"","container_styles_width":"","container_styles_font-size":"","container_styles_margin":"","container_styles_padding":"","container_styles_display":"","container_styles_float":"","container_styles_show_advanced_css":"0","container_styles_advanced":"","title_styles_background-color":"","title_styles_border":"","title_styles_border-style":"","title_styles_border-color":"","title_styles_color":"","title_styles_height":"","title_styles_width":"","title_styles_font-size":"","title_styles_margin":"","title_styles_padding":"","title_styles_display":"","title_styles_float":"","title_styles_show_advanced_css":"0","title_styles_advanced":"","row_styles_background-color":"","row_styles_border":"","row_styles_border-style":"","row_styles_border-color":"","row_styles_color":"","row_styles_height":"","row_styles_width":"","row_styles_font-size":"","row_styles_margin":"","row_styles_padding":"","row_styles_display":"","row_styles_show_advanced_css":"0","row_styles_advanced":"","row-odd_styles_background-color":"","row-odd_styles_border":"","row-odd_styles_border-style":"","row-odd_styles_border-color":"","row-odd_styles_color":"","row-odd_styles_height":"","row-odd_styles_width":"","row-odd_styles_font-size":"","row-odd_styles_margin":"","row-odd_styles_padding":"","row-odd_styles_display":"","row-odd_styles_show_advanced_css":"0","row-odd_styles_advanced":"","success-msg_styles_background-color":"","success-msg_styles_border":"","success-msg_styles_border-style":"","success-msg_styles_border-color":"","success-msg_styles_color":"","success-msg_styles_height":"","success-msg_styles_width":"","success-msg_styles_font-size":"","success-msg_styles_margin":"","success-msg_styles_padding":"","success-msg_styles_display":"","success-msg_styles_show_advanced_css":"0","success-msg_styles_advanced":"","error_msg_styles_background-color":"","error_msg_styles_border":"","error_msg_styles_border-style":"","error_msg_styles_border-color":"","error_msg_styles_color":"","error_msg_styles_height":"","error_msg_styles_width":"","error_msg_styles_font-size":"","error_msg_styles_margin":"","error_msg_styles_padding":"","error_msg_styles_display":"","error_msg_styles_show_advanced_css":"0","error_msg_styles_advanced":"","allow_public_link":0,"embed_form":"","currency":"","unique_field_error":"A form with this value has already been submitted.","ninjaForms":"Ninja Forms","changeEmailErrorMsg":"Introduce una direcci\u00f3n de correo electr\u00f3nico v\u00e1lida.","changeDateErrorMsg":"Please enter a valid date!","confirmFieldErrorMsg":"Estos campos deben coincidir.","fieldNumberNumMinError":"Error de n\u00famero m\u00ednimo","fieldNumberNumMaxError":"Error de n\u00famero m\u00e1ximo","fieldNumberIncrementBy":"Increm\u00e9ntalo por ","fieldTextareaRTEInsertLink":"Insertar enlace","fieldTextareaRTEInsertMedia":"Insertar medios","fieldTextareaRTESelectAFile":"Seleccione un archivo","formErrorsCorrectErrors":"Corrige los errores antes de enviar este formulario.","validateRequiredField":"Esto es un campo obligatorio.","honeypotHoneypotError":"Error de Honeypot","fileUploadOldCodeFileUploadInProgress":"Carga de archivo en curso.","fileUploadOldCodeFileUpload":"CARGA DE ARCHIVO","currencySymbol":false,"fieldsMarkedRequired":"Campos marcados con <span class=\"ninja-forms-req-symbol\">*<\/span> son requeridos","thousands_sep":".","decimal_point":",","siteLocale":"es_ES","dateFormat":"m\/d\/Y","startOfWeek":"1","of":"de","previousMonth":"Previo Mes","nextMonth":"Siguiente Mes","months":["Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre"],"monthsShort":["Ene","Feb","Mar","Abr","Mayo","Jun","Jul","Ago","Sep","Oct","Nov","Dic"],"weekdays":["Domingo","Lunes","Martes","Mi\u00e9rcoles","Jueves","Viernes","Sabado"],"weekdaysShort":["Dom","Lun","Mar","Mie","Jue","Vie","Sab"],"weekdaysMin":["Do","Lu","Ma","Mi","Ju","Vi","Sa"],"currency_symbol":"","beforeForm":"","beforeFields":"","afterFields":"","afterForm":""};form.fields=[{"objectType":"Field","objectDomain":"fields","editActive":false,"order":1,"label":"","key":"name","type":"textbox","created_at":"2019-09-13 04:27:57","label_pos":"above","required":1,"placeholder":"Name *","default":"","wrapper_class":"","element_class":"","container_class":"","input_limit":"","input_limit_type":"characters","input_limit_msg":"Character(s) left","manual_key":"","disable_input":"","admin_label":"","help_text":"","desc_text":"","disable_browser_autocomplete":"","mask":"","custom_mask":"","wrap_styles_background-color":"","wrap_styles_border":"","wrap_styles_border-style":"","wrap_styles_border-color":"","wrap_styles_color":"","wrap_styles_height":"","wrap_styles_width":"","wrap_styles_font-size":"","wrap_styles_margin":"","wrap_styles_padding":"","wrap_styles_display":"","wrap_styles_float":"","wrap_styles_show_advanced_css":0,"wrap_styles_advanced":"","label_styles_background-color":"","label_styles_border":"","label_styles_border-style":"","label_styles_border-color":"","label_styles_color":"","label_styles_height":"","label_styles_width":"","label_styles_font-size":"","label_styles_margin":"","label_styles_padding":"","label_styles_display":"","label_styles_float":"","label_styles_show_advanced_css":0,"label_styles_advanced":"","element_styles_background-color":"","element_styles_border":"","element_styles_border-style":"","element_styles_border-color":"","element_styles_color":"","element_styles_height":"","element_styles_width":"","element_styles_font-size":"","element_styles_margin":"","element_styles_padding":"","element_styles_display":"","element_styles_float":"","element_styles_show_advanced_css":0,"element_styles_advanced":"","cellcid":"c3277","custom_name_attribute":"","personally_identifiable":"","value":"","drawerDisabled":false,"id":1,"beforeField":"","afterField":"","parentType":"textbox","element_templates":["textbox","input"],"old_classname":"","wrap_template":"wrap"},{"objectType":"Field","objectDomain":"fields","editActive":false,"order":2,"type":"lastname","label":"","key":"lastname_1568360424284","label_pos":"above","required":1,"default":"","placeholder":"Last name *","container_class":"","element_class":"","admin_label":"","help_text":"","custom_name_attribute":"lname","personally_identifiable":1,"value":"","drawerDisabled":false,"id":5,"beforeField":"","afterField":"","parentType":"lastname","element_templates":["lastname","input"],"old_classname":"","wrap_template":"wrap"},{"objectType":"Field","objectDomain":"fields","editActive":false,"order":3,"label":"","key":"email","type":"email","created_at":"2019-09-13 04:27:57","label_pos":"above","required":1,"placeholder":"Email","default":"","wrapper_class":"","element_class":"","container_class":"","admin_label":"","help_text":"","desc_text":"","wrap_styles_background-color":"","wrap_styles_border":"","wrap_styles_border-style":"","wrap_styles_border-color":"","wrap_styles_color":"","wrap_styles_height":"","wrap_styles_width":"","wrap_styles_font-size":"","wrap_styles_margin":"","wrap_styles_padding":"","wrap_styles_display":"","wrap_styles_float":"","wrap_styles_show_advanced_css":0,"wrap_styles_advanced":"","label_styles_background-color":"","label_styles_border":"","label_styles_border-style":"","label_styles_border-color":"","label_styles_color":"","label_styles_height":"","label_styles_width":"","label_styles_font-size":"","label_styles_margin":"","label_styles_padding":"","label_styles_display":"","label_styles_float":"","label_styles_show_advanced_css":0,"label_styles_advanced":"","element_styles_background-color":"","element_styles_border":"","element_styles_border-style":"","element_styles_border-color":"","element_styles_color":"","element_styles_height":"","element_styles_width":"","element_styles_font-size":"","element_styles_margin":"","element_styles_padding":"","element_styles_display":"","element_styles_float":"","element_styles_show_advanced_css":0,"element_styles_advanced":"","cellcid":"c3281","custom_name_attribute":"email","personally_identifiable":1,"value":"","drawerDisabled":false,"id":2,"beforeField":"","afterField":"","parentType":"email","element_templates":["email","input"],"old_classname":"","wrap_template":"wrap"},{"objectType":"Field","objectDomain":"fields","editActive":false,"order":4,"type":"phone","label":"","key":"phone_1568360604121","label_pos":"above","required":1,"default":"","placeholder":"Phone","container_class":"","element_class":"","input_limit":"","input_limit_type":"characters","input_limit_msg":"Caracteres restantes","manual_key":false,"admin_label":"","help_text":"","mask":"","custom_mask":"","custom_name_attribute":"phone","personally_identifiable":1,"value":"","drawerDisabled":false,"id":6,"beforeField":"","afterField":"","parentType":"textbox","element_templates":["tel","textbox","input"],"old_classname":"","wrap_template":"wrap"},{"objectType":"Field","objectDomain":"fields","editActive":false,"order":5,"label":"","key":"message","type":"textarea","created_at":"2019-09-13 04:27:58","label_pos":"above","required":1,"placeholder":"Message","default":"","wrapper_class":"","element_class":"","container_class":"","input_limit":"","input_limit_type":"characters","input_limit_msg":"Character(s) left","manual_key":"","disable_input":"","admin_label":"","help_text":"","desc_text":"","disable_browser_autocomplete":"","textarea_rte":"","disable_rte_mobile":"","textarea_media":"","wrap_styles_background-color":"","wrap_styles_border":"","wrap_styles_border-style":"","wrap_styles_border-color":"","wrap_styles_color":"","wrap_styles_height":"","wrap_styles_width":"","wrap_styles_font-size":"","wrap_styles_margin":"","wrap_styles_padding":"","wrap_styles_display":"","wrap_styles_float":"","wrap_styles_show_advanced_css":0,"wrap_styles_advanced":"","label_styles_background-color":"","label_styles_border":"","label_styles_border-style":"","label_styles_border-color":"","label_styles_color":"","label_styles_height":"","label_styles_width":"","label_styles_font-size":"","label_styles_margin":"","label_styles_padding":"","label_styles_display":"","label_styles_float":"","label_styles_show_advanced_css":0,"label_styles_advanced":"","element_styles_background-color":"","element_styles_border":"","element_styles_border-style":"","element_styles_border-color":"","element_styles_color":"","element_styles_height":"","element_styles_width":"","element_styles_font-size":"","element_styles_margin":"","element_styles_padding":"","element_styles_display":"","element_styles_float":"","element_styles_show_advanced_css":0,"element_styles_advanced":"","cellcid":"c3284","value":"","drawerDisabled":false,"id":3,"beforeField":"","afterField":"","parentType":"textarea","element_templates":["textarea","input"],"old_classname":"","wrap_template":"wrap"},{"objectType":"Field","objectDomain":"fields","editActive":false,"order":6,"label":"Submit","key":"submit","type":"submit","created_at":"2019-09-13 04:27:58","processing_label":"Processing","container_class":"","element_class":"","wrap_styles_background-color":"","wrap_styles_border":"","wrap_styles_border-style":"","wrap_styles_border-color":"","wrap_styles_color":"","wrap_styles_height":"","wrap_styles_width":"","wrap_styles_font-size":"","wrap_styles_margin":"","wrap_styles_padding":"","wrap_styles_display":"","wrap_styles_float":"","wrap_styles_show_advanced_css":0,"wrap_styles_advanced":"","label_styles_background-color":"","label_styles_border":"","label_styles_border-style":"","label_styles_border-color":"","label_styles_color":"","label_styles_height":"","label_styles_width":"","label_styles_font-size":"","label_styles_margin":"","label_styles_padding":"","label_styles_display":"","label_styles_float":"","label_styles_show_advanced_css":0,"label_styles_advanced":"","element_styles_background-color":"","element_styles_border":"","element_styles_border-style":"","element_styles_border-color":"","element_styles_color":"","element_styles_height":"","element_styles_width":"","element_styles_font-size":"","element_styles_margin":"","element_styles_padding":"","element_styles_display":"","element_styles_float":"","element_styles_show_advanced_css":0,"element_styles_advanced":"","submit_element_hover_styles_background-color":"","submit_element_hover_styles_border":"","submit_element_hover_styles_border-style":"","submit_element_hover_styles_border-color":"","submit_element_hover_styles_color":"","submit_element_hover_styles_height":"","submit_element_hover_styles_width":"","submit_element_hover_styles_font-size":"","submit_element_hover_styles_margin":"","submit_element_hover_styles_padding":"","submit_element_hover_styles_display":"","submit_element_hover_styles_float":"","submit_element_hover_styles_show_advanced_css":0,"submit_element_hover_styles_advanced":"","cellcid":"c3287","id":4,"beforeField":"","afterField":"","value":"","label_pos":"above","parentType":"textbox","element_templates":["submit","button","input"],"old_classname":"","wrap_template":"wrap-no-label"}];nfForms.push(form);</script>
+          	</div>
+    </section>
+
+
 <footer class="footer text-center bg-dark text-white">
     <div class="container">
       <ul class="list-inline mt-3">
@@ -437,12 +418,6 @@ img.emoji {
     </div>
   </footer>
     
-
-    <!-- Scroll to Top Button-->
-    <a class="scroll-to-top rounded js-scroll-trigger" href="#page-top">
-      <i class="fas fa-angle-up"></i>
-    </a>
-
 	
 
 <hr />
@@ -632,6 +607,29 @@ var nfFrontEnd = {"adminAjax":"https:\/\/diegobmarin.github.io\/OnePageTM\/wp-ad
             {{{ data.maybeRequired() }}}
     >
 </script>
+<script id="tmpl-nf-field-lastname" type="text/template">
+    <input
+            type="text"
+            value="{{{ data.value }}}"
+            class="{{{ data.renderClasses() }}} nf-element"
+
+            id="nf-field-{{{ data.id }}}"
+            <# if( ! data.disable_browser_autocompletes ){ #>
+            name="{{ data.custom_name_attribute || 'nf-field-' + data.id + '-' + data.type }}"
+            autocomplete="family-name"
+            <# } else { #>
+            name="{{ data.custom_name_attribute || 'nf-field-' + data.id }}"
+            {{{ data.maybeDisableAutocomplete() }}}
+            <# } #>
+            {{{ data.renderPlaceholder() }}}
+
+            aria-invalid="false"
+            aria-describedby="nf-error-{{{ data.id }}}"
+                aria-labelledby="nf-label-field-{{{ data.id }}}"
+
+            {{{ data.maybeRequired() }}}
+    >
+</script>
 <script id="tmpl-nf-field-email" type="text/template">
 	<input
 			type="email"
@@ -648,6 +646,29 @@ var nfFrontEnd = {"adminAjax":"https:\/\/diegobmarin.github.io\/OnePageTM\/wp-ad
 			<# } #>
 			{{{ data.renderPlaceholder() }}}
 			{{{ data.maybeDisabled() }}}
+
+			aria-invalid="false"
+			aria-describedby="nf-error-{{{ data.id }}}"
+			aria-labelledby="nf-label-field-{{{ data.id }}}"
+
+			{{{ data.maybeRequired() }}}
+	>
+</script>
+<script id="tmpl-nf-field-tel" type="text/template">
+	<input
+			type="tel"
+			value="{{{ data.value }}}"
+			class="{{{ data.renderClasses() }}} nf-element"
+
+			id="nf-field-{{{ data.id }}}"
+			<# if( ! data.disable_browser_autocompletes ){ #>
+			name="{{ data.custom_name_attribute || 'nf-field-' + data.id + '-' + data.type }}"
+			autocomplete="tel"
+			<# } else { #>
+			name="{{ data.custom_name_attribute || 'nf-field-' + data.id }}"
+			{{{ data.maybeDisableAutocomplete() }}}
+			<# } #>
+			{{{ data.renderPlaceholder() }}}
 
 			aria-invalid="false"
 			aria-describedby="nf-error-{{{ data.id }}}"
