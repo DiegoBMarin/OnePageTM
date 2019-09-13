@@ -50,11 +50,11 @@ h6 {
 
 @font-face {
   font-family: 'typicons';
-  src: url("icons/font/typicons.eot");
-  src: url("icons/font/typicons.eot?#iefix") format('embedded-opentype'),
-       url("icons/font/typicons.woff") format('woff'),
-       url("icons/font/typicons.ttf") format('truetype'),
-       url("icons/font/typicons.svg#typicons") format('svg');
+  src: url("https://diegobmarin.github.io/OnePageTM/wp-content/themes/onepagetheme/icons/font/typicons.eot");
+  src: url("https://diegobmarin.github.io/OnePageTM/wp-content/themes/onepagetheme/icons/font/typicons.eot#iefix") format('embedded-opentype'),
+       url("https://diegobmarin.github.io/OnePageTM/wp-content/themes/onepagetheme/icons/font/typicons.woff") format('woff'),
+       url("https://diegobmarin.github.io/OnePageTM/wp-content/themes/onepagetheme/icons/font/typicons.ttf") format('truetype'),
+       url("https://diegobmarin.github.io/OnePageTM/wp-content/themes/onepagetheme/icons/font/typicons.svg#typicons") format('svg');
   font-weight: normal;
   font-style: normal;
 }
