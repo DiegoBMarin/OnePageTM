@@ -77,6 +77,13 @@ define('WP_DEBUG', false);
 if ( !defined('ABSPATH') )
 	define('ABSPATH', dirname(__FILE__) . '/');
 
+
+if ($_SERVER['HTTP_X_FORWARDED_PROTO'] == 'https') $_SERVER['HTTPS']='on';
+
+define('CONCATENATE_SCRIPTS', false); 
+
 /** Sets up WordPress vars and included files. */
 require_once(ABSPATH . 'wp-settings.php');
+
+
 

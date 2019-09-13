@@ -346,7 +346,7 @@
        
       </form>
     </section>
-
+<?php echo do_shortcode("[ninja_form id='1']"); ?>
 
 <footer class="footer text-center bg-dark text-white">
     <div class="container">
